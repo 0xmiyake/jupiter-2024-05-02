@@ -43,6 +43,8 @@ h2 {
   color: var(--fontMainColor);
   text-transform: capitalize;
   text-align: center;
+  height: 30px;
+  /* background-color: aqua; */
 }
 
 h3 {
