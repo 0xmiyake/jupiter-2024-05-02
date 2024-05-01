@@ -69,7 +69,7 @@
   /* メニュー背景　*/
 
 .globalMenuSp {
-    font-size: 3rem;
+    font-size: 1.2rem;
       position: fixed;
       z-index : 1000;
       top  : 0;
@@ -103,7 +103,7 @@
   div.globalMenuSp ul li a {
       display: block;
       color: #fff;
-      padding: 1em 0;
+      padding: 0.8rem 0;
       text-decoration :none;
   }
 
