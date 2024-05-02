@@ -43,7 +43,7 @@ h2 {
   color: var(--fontMainColor);
   text-transform: capitalize;
   text-align: center;
-  height: 30px;
+  /* height: 30px; */
   /* background-color: aqua; */
 }
 
@@ -132,6 +132,7 @@ h4 {
   width: 25px;  /* 正方形を作る */
   height: 25px;
 }
+
 
 
 
@@ -342,6 +343,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 0.4rem 0 0.2rem 0;
 }
 
@@ -352,13 +354,16 @@ header {
 }
 
 .concept-text-people {
-  padding-bottom: 8px;
-  text-align: center;
+  margin-bottom: 8px;
+  width: 330px;
+  text-align: left;
+  border-bottom: 2px solid var(--fontSubColor); /* 下線のスタイルを指定 */
+
+  /* background-color: aqua; */
 
 }
 
 .concept-text-people h3 {
-  border-bottom: 2px solid var(--fontSubColor); /* 下線のスタイルを指定 */
   display: inline-block; /* 複数行にまたがる要素に下線を引くために必要 */
   padding-bottom: 5px; 
   color: var(--fontSubColor);
@@ -557,6 +562,7 @@ header {
   justify-content: center;
   padding: 10px 0;
   text-align: center;
+  align-items: center;
 } 
 
 .menu-h3 h3{
