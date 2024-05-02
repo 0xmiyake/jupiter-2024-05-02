@@ -109,6 +109,10 @@
     text-align: left;
 }
 
+.chip-h4 span {
+    margin-left: 1.2rem;
+}
+
 .poker-content ul li {
     list-style: square; 
     padding: 4px 0;
